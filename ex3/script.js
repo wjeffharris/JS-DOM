@@ -3,5 +3,7 @@
 var button = document.getElementById("myButton");
 
 button.addEventListener('click', function(){
+    document.querySelector("#myButton").style.background = "blue";
     
 })
+
